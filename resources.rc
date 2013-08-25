@@ -1,0 +1,27 @@
+#include <windows.h>
+ICON1 ICON DISCARDABLE "julia.ico"
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION    	1,0,0,0
+PRODUCTVERSION 	1,0,0,0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704E4"
+        BEGIN
+            VALUE "CompanyName",      "$h@d0WFoXx"
+            VALUE "FileDescription",  "Fraktale Julia-Bilder erzeugen"
+            VALUE "FileVersion",      "1.0.0.0"
+            VALUE "InternalName",     "Julia"
+            VALUE "OriginalFilename", "Julia.exe"
+            VALUE "ProductName",      "Julia"
+            VALUE "ProductVersion",   "1.0.0.0"
+			VALUE "LegalCopyright", "©2012, $h@d0WFoXx"
+        END
+    END
+
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0407, 1252
+
+    END
+END
